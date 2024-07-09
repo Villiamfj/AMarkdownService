@@ -1,0 +1,50 @@
+/*  navbar */
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: darkgray;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li.nav a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: darkslategray;
+  color: white;
+}
+
+/* stopping colision with navbar */
+div.content {
+  margin-left: 30%;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/* general stuff */
+
+body {
+  margin: 0;
+}
+
+* {
+  font-family: monospace;
+}
+
+/* Images */
+img {
+  width: 100%;
+}
